@@ -1,3 +1,123 @@
-body {
-    background-color: brown
+body 
+{
+background-image: url('https://png.pngtree.com/png-clipart/20190703/ourlarge/pngtree-neon-game-hall-vs-game-sign-png-image_1527366.jpg');
+background-size: 50%;
+font-family: 'Turret Road', cursive;
+}
+
+h1 {
+    font-family: 'Turret Road', bold;
+    font-size: 3.75em;
+    text-align: center;
+    color: #00fd1e;
+}
+
+    h2 {
+        font-family: 'Turret Road', cursive;
+        font-size: 2em;
+        color: #fff;
+        text-shadow:
+        -2px -2px 0 red;
+        text-align: center;
+        margin-top: 100px;
     }
+
+    .blinking {
+
+        animation: opacity 2s ease-in-out infinite;
+        opacity: 1;
+    }
+    
+    @keyframes opacity {
+      0% {
+        opacity: 1;
+      }
+    
+      50% {
+        opacity: 0
+      }
+    
+      100% {
+        opacity: 1;
+      }
+    }
+    
+    h3{
+        font-family: 'Turret Road', cursive;
+        font-size: 2em;
+        text-align: center;
+        color: green;
+        padding-top: 50px;
+    }
+    
+    h4 {
+        font-family: 'Turret Road', cursive;
+        font-size: 2em;
+        color: red;
+        padding-top: 50px;
+    }
+    
+    p {
+        font-family: 'Turret Road', cursive;
+        font-size: 1.75em;
+        text-align: center;
+        margin-top: -55px;
+    } 
+    
+    #guessedLetters {
+        color: #767F82;
+        margin-top: 50px
+    }
+    
+
+    
+    #answerWord {
+        letter-spacing: .25em;
+        margin-top: 0;
+        color: rgb(179, 0, 255);
+    }
+    
+    main {
+        width: 85%;
+        margin: 0 auto;
+    }
+    
+    .container {
+        display: flex;
+        background-color: rgba(255, 255, 255, 0.7);
+        margin-top:80px;
+    }
+    
+    .flexColumn {
+        flex-direction: column;
+    }
+    
+    .middle {
+        flex: 1;
+        order: 2;
+        padding: 20px;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+    }
+    
+    .side {
+        width: 25%;
+        padding: 20px;
+    }
+    .left {
+        order: 1;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .right{
+        order: 3;
+        overflow-wrap: break-word;
+    }
+    
+    
+    
+    
+    
+    <a href='https://pngtree.com/so/confrontation'>confrontation png from pngtree.com</a>

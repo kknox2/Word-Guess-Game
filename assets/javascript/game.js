@@ -155,3 +155,6 @@ document.onkeyup = function (event) {
 setup();
 
 console.log(ansWord);
+
+//could not figure out how to get the game images to display in the game container when i won or the loser image
+//to displah when i lost :(
